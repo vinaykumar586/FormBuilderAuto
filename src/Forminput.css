@@ -1,0 +1,14 @@
+.card-form {
+  padding: 10px;
+  box-shadow: 0 0 5px 0px;
+  margin-bottom: 5px;
+  border: 1px groove;
+  border-radius: 4px;
+}
+.form-icons {
+  position: relative;
+  float: right;
+}
+.form-input {
+  width: -webkit-fill-available;
+}

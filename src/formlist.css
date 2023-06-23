@@ -1,0 +1,21 @@
+.form-list {
+  padding: 5px;
+  border-bottom: 2px groove;
+  cursor: pointer;
+}
+.form-list:nth-last-child(1) {
+  border: none;
+}
+
+.form-list:hover {
+  background-color: #d3d5d7;
+}
+.form-group {
+  border: 3px groove;
+  width: 40vw;
+  padding: 0;
+}
+.form-builder {
+  display: flex;
+  flex-direction: row;
+}
