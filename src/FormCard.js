@@ -11,7 +11,7 @@ function FormCard({ formData }) {
           return <FormSelect label={item.label} />;
         }
         if (item.type != 'select') {
-          return <FormFileds label={item.label} type={item.type} />;
+          return <FormFileds label={item.label} type={item.type} item={item} />;
         }
       })}
     </div>
