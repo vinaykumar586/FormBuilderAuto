@@ -4,8 +4,19 @@ import FormSelect from './FormSelect';
 import FormFileds from './FormFields';
 function FormCard({ formData }) {
   // const [edit, setEdit] = useState(false);
+  function dragStart(e) {
+    console.log(e);
+  }
+  function dragEnd(e) {
+    console.log(e);
+  }
   return (
-    <div>
+    <div
+      className="drag-item"
+      draggable="true"
+      onDragStart={(e) => dragStart(e)}
+      onDragEnd={(e) => dragEnd(e)}
+    >
       {formData.map((item, id) => {
         if (item.type == 'select') {
           return <FormSelect label={item.label} />;

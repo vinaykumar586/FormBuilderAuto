@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './formlist.css';
 import Form from './Form.json';
 function FormList({ formData, setFormData }) {
-  console.log(Form);
   return (
     <div>
       <ul className="form-group">
